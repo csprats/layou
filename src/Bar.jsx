@@ -1,4 +1,4 @@
-function App() {
+function Bar() {
   return (
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
@@ -29,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default Bar;
