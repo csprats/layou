@@ -14,14 +14,33 @@
   
 }
 
-:root * {
-  background-color: #eee;
-}
-
 .navbar *, .navbar{
   background-color: #74a4bc;
 }
 
 #logo.navbar-item:hover * {
   background-color: white;
+}
+
+/* Estilo base para todos los objetos del canvas */
+.target {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box; /* Para que el borde no sume tamaño extra */
+}
+
+/* Solo los rectángulos llevan borde y color de fondo */
+
+/* El texto no lleva borde por defecto */
+.tipe-text {
+  border: none;
+  font-family: sans-serif;
+}
+
+/* Estilo para cuando un elemento está seleccionado (opcional) */
+.target-active {
+  outline: 2px solid #4af;
 }
